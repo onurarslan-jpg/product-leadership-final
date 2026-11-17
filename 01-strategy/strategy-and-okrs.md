@@ -1,4 +1,4 @@
-# Product Strategy & OKRs
+# Product Strategy & OKRs: Fable Growth
 
 > Module 1 · Write a Strategy That Can Survive a Test
 
@@ -6,26 +6,26 @@
 
 | Question | Your choice |
 |---|---|
-| **Winning aspiration** | _____ |
-| **Where to play** | _____ |
-| **How to win** | _____ |
-| **Capabilities required** | _____ |
-| **Management systems** | _____ |
+| **Winning aspiration** | Adults who came to Fable during a hard stretch keep using it after they feel better, because it’s become how they hold on to the calm they rebuilt. Fable stops being what they reach for in a crisis and becomes a few minutes a week that keep the next hard stretch smaller. Winning means these users still open Fable after day 120 because they want to, not because they’re struggling. |
+| **Where to play** | Where to Play: We focus on Fable’s existing deeply engaged users, free and premium, as they come out of an acute stretch (roughly day 60 to 120). These are adults 25 to 45 who used Fable heavily to get through stress, sleep problems or a life event, and now feel better. The use case is staying well: short, regular practice that keeps everyday stress in check and helps when the next hard stretch arrives. We leave out paid acquisition of new users against Headspace and Calm, casual users who never formed a habit, anyone needing clinical-level support, and new segments like teens, employers or B2B. |
+| **How to win** | How to Win: Fable already knows what helped each user through their hardest stretch: which sessions they returned to, when they couldn’t sleep, what calmed them down. We turn that history into a personal “staying well” plan. Practice shrinks to a few minutes a week built from the sessions that worked for that user, and Fable notices early signs of a new hard stretch (late-night opens, returning to sleep content) and steps support back up. Competitors can copy the feature, but not the months of personal history or the trust Fable earned when it mattered most. |
+| **Capabilities required** | Capabilities Required: We must be excellent at four things: - Personal-history modelling: turning each user’s acute-phase behaviour into a staying-well plan that actually predicts what keeps them engaged. - Early-signal detection with safety guardrails: spotting signs of a new hard stretch and stepping support up, with clinical advisors defining the line where Fable points someone to professional help instead. - Repackaging the existing library: cutting meditations and sleep content into short, modular practices for maintenance, without producing large amounts of new content. - Trust-first design: consent, transparency and a moment where Fable shows users what it learned about them, so that being “known” feels supportive rather than creepy. |
+| **Management systems** | Our main metric is the share of deeply engaged users still active by choice after day 120, measured as practising at least weekly between day 120 and day 180. Three leading indicators: the share of users in the day 60 to 120 window who start a staying-well plan; the share of plan users who keep practising weekly; and the share of users flagged for a new hard stretch who step up their practice within 7 days. Two guardrails: the consent opt-in rate, and how often users switch off personalisation. In Q1, before scaling, we test our riskiest assumption, that recovered users want ongoing practice at all: we survey churned deeply engaged users and pilot the plan with one cohort. If fewer than 30% want ongoing practice, we change course to a win-back-at-the-next-crisis model. A monthly cohort review tracks these numbers; a quarterly strategy review decides whether to continue, adjust or stop against thresholds set in advance; and a quarterly clinical advisory safety review checks every case where Fable directed someone to professional help. |
 
 ## 2. Your one hard no
 
-> **Hard no:** _____
+> **Hard no:** We will not build a community or social layer this year, even though the growth team believes peer connection would raise retention. It's a different product that needs moderation and safety capacity our team of 14 doesn't have. It puts a vulnerable audience in front of each other's struggles, which is a real risk for a non-clinical app. And it doesn't use the personal history our advantage depends on. Even the smallest version, an anonymous peer cohort with no open feed, would still need ongoing moderation and crisis handling, and would pull the same team away from the personal plan before we know the plan works. Saying no keeps the whole team on one bet: proving that Fable can keep people well after they recover.
 
 ## 3. OKR cascade
 
-> **Objective:** _____
+> **Objective:** Make Fable the app people keep after they feel better.
 >
-> - **KR1:** _____
-> - **KR2:** _____
-> - **KR3:** _____
+> - **KR1:** KR1: Increase the share of deeply engaged users still practising at least weekly at day 150 from an estimated 15% to 25% by the end of Q2.
+> - **KR2:** KR2: 50% of users who start a staying-well plan still practise weekly 8 weeks later, against an estimated 20% weekly practice for the same users today.
+> - **KR3:** Increase the share of users flagged for a new hard stretch who step up their practice (2+ sessions) within 7 days from an estimated 20% to 40%.
 
 ## 4. AI pressure-test
 
-**Most valid challenge:** _____
+**Most valid challenge:** The challenge to KR3 is the most valid because it exposed a logic flaw, not a difference of opinion. KR3 measured lapsed users returning after Fable spotted a new hard stretch, but Fable can only spot a hard stretch from in-app behaviour (late-night opens, returning to sleep content), so a user who has stopped opening the app can never be flagged. The KR could not be measured honestly. That matters beyond one metric: early-signal detection is half of my How to Win, so a broken KR3 meant I had no way to prove a core part of the strategy works. The other challenges are risks to test or trade-offs to argue; this one was simply wrong, and had to be fixed.
 
-**What I will change and what I will defend:** _____
+**What I will change and what I will defend:** I will change two things. First, KR3 now measures active users who are flagged for a new hard stretch and step up their practice within 7 days, so every user it counts can actually be detected. Second, I accept that my riskiest assumption is that recovered users want ongoing practice at all; their use may simply be episodic. Rather than rewrite the strategy on a hunch, I added a Q1 test to Management Systems: a survey of churned deeply engaged users and a one-cohort pilot, with a clear threshold (under 30% wanting ongoing practice) for changing course to a model of winning them back at their next crisis. I will defend two things. The hard no on community stands, because even the smallest version, an anonymous peer cohort, still needs moderation and crisis handling and would split a 14-person team before the core bet is proven. And How to Win stands: AI competitors can learn a user over time, but personal history and the trust Fable earned during the user's hardest stretch are what only Fable has with these users today, and the Q1 test will show whether that advantage is real.
